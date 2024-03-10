@@ -1,0 +1,591 @@
+<mxfile host="app.diagrams.net" modified="2024-03-09T22:10:01.311Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="3tRJOcjV3l2ZegO0cSO8" version="24.0.4" type="device">
+  <diagram name="Page-1" id="ypCOIBi9mONmlDWH3BWM">
+    <mxGraphModel dx="4351" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-9" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-2260" y="150" width="160" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-2" value="MENU (Svet_Menu)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-9" vertex="1">
+          <mxGeometry width="160" height="158" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-3" value="ROZMER (x,y,)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-9" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-4" value="POZADIE (Menu)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-9" vertex="1">
+          <mxGeometry y="52" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-5" value="Hraj (VYBER)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-9" vertex="1">
+          <mxGeometry y="80" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-6" value="Návod (VYBER)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-9" vertex="1">
+          <mxGeometry y="106" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-7" value="Koniec hry (VYBER)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-9" vertex="1">
+          <mxGeometry y="132" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.002;entryY=0.094;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="OMzZo-IOyk-P7CXgRgLX-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2100" y="270" as="sourcePoint" />
+            <mxPoint x="-1900" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2080" y="270" />
+              <mxPoint x="-2080" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" target="OMzZo-IOyk-P7CXgRgLX-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2100" y="290" as="sourcePoint" />
+            <mxPoint x="-2099" y="375" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2070" y="290" />
+              <mxPoint x="-2070" y="484" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-29" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-1720" y="234" width="170" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-30" value="Úroveň 1 (Level1)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-29" vertex="1">
+          <mxGeometry width="170" height="116" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-31" value="ROZMER (x,y,)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-30" vertex="1">
+          <mxGeometry y="26" width="170" height="19.08860759493671" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-32" value="POZADIE (level1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-30" vertex="1">
+          <mxGeometry y="45.08860759493671" width="170" height="20.556962025316455" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-152" value="Cieľ do ďalšieho levela (ciel1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-30" vertex="1">
+          <mxGeometry y="65.64556962025317" width="170" height="20.556962025316455" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="OMzZo-IOyk-P7CXgRgLX-40" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1810" y="500" as="sourcePoint" />
+            <mxPoint x="-2010" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2010" y="633" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="OMzZo-IOyk-P7CXgRgLX-41" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2280" y="560" as="sourcePoint" />
+            <mxPoint x="-2260" y="163" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2300" y="660" />
+              <mxPoint x="-2300" y="163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-46" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-1480" y="234" width="170" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-47" value="Úroveň 2 (Level2)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-46" vertex="1">
+          <mxGeometry width="170" height="116" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-48" value="ROZMER (x,y,)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-47" vertex="1">
+          <mxGeometry y="26" width="170" height="19.08860759493671" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-49" value="POZADIE (level2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-47" vertex="1">
+          <mxGeometry y="45.08860759493671" width="170" height="20.556962025316455" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-154" value="Cieľ do ďalšieho levela (ciel2)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="OMzZo-IOyk-P7CXgRgLX-47" vertex="1">
+          <mxGeometry y="65.64556962025317" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-50" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-1240" y="234" width="170" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-51" value="Úroveň 3 (Level3)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-50" vertex="1">
+          <mxGeometry width="170" height="118.48101265822787" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-52" value="ROZMER (x,y,)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-51" vertex="1">
+          <mxGeometry y="26" width="170" height="25.67088607594937" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-53" value="POZADIE (level3)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-51" vertex="1">
+          <mxGeometry y="51.67088607594937" width="170" height="27.64556962025317" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-156" value="Cieľ do ďalšieho levela (ciel3)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="OMzZo-IOyk-P7CXgRgLX-51" vertex="1">
+          <mxGeometry y="79.31645569620254" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-54" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-1000" y="234" width="160" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-55" value="Úroveň 4 (Level4)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-54" vertex="1">
+          <mxGeometry width="160" height="100" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-56" value="ROZMER (x,y,)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-55" vertex="1">
+          <mxGeometry y="26" width="160" height="19.08860759493671" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-158" value="POZADIE (level4)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-55" vertex="1">
+          <mxGeometry y="45.08860759493671" width="160" height="20.556962025316455" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-57" value="Cieľ celej hry (pohar)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-55" vertex="1">
+          <mxGeometry y="65.64556962025317" width="160" height="20.556962025316455" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-58" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-1510" y="30" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-59" value="Pevné platformy" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-58" vertex="1">
+          <mxGeometry width="200" height="80" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-72" value="ROZMER (x,y,)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-59" vertex="1">
+          <mxGeometry y="26" width="200" height="19.200000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-73" value="POČET" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-59" vertex="1">
+          <mxGeometry y="45.2" width="200" height="19.96" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-62" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-1950" y="234" width="160" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-63" value="Hráčova postava (hrac)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-62" vertex="1">
+          <mxGeometry width="160" height="182.9873417721519" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-65" value="POZÍCIA (x,y)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-63" vertex="1">
+          <mxGeometry y="26" width="160" height="34.734177215189874" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-64" value="ROZMER (x,y,)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-63" vertex="1">
+          <mxGeometry y="60.734177215189874" width="160" height="32.25316455696203" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-67" value="POYB (&amp;nbsp;↓↑←→ )" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="OMzZo-IOyk-P7CXgRgLX-63" vertex="1">
+          <mxGeometry y="92.9873417721519" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-68" value="SKOK ( medzerník )" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="OMzZo-IOyk-P7CXgRgLX-63" vertex="1">
+          <mxGeometry y="122.9873417721519" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-177" value="RÝCHLOSŤ" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="OMzZo-IOyk-P7CXgRgLX-63" vertex="1">
+          <mxGeometry y="152.9873417721519" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OMzZo-IOyk-P7CXgRgLX-5" target="OMzZo-IOyk-P7CXgRgLX-63" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2097.6" y="239.99999999999994" as="sourcePoint" />
+            <mxPoint x="-1950" y="241.21999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-70" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.114;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="OMzZo-IOyk-P7CXgRgLX-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1790" y="247" as="sourcePoint" />
+            <mxPoint x="-1570" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-78" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1260" y="41" as="sourcePoint" />
+            <mxPoint x="-1310" y="41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-79" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-1260" y="30" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-80" value="Typy platforiem" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-79" vertex="1">
+          <mxGeometry width="200" height="135.35653061224488" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-81" value="podlaha" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-80" vertex="1">
+          <mxGeometry y="26" width="200" height="19.10204081632653" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-82" value="podlaha2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-80" vertex="1">
+          <mxGeometry y="45.10204081632653" width="200" height="16.236734693877548" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-83" value="oblak" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-80" vertex="1">
+          <mxGeometry y="61.33877551020407" width="200" height="20.272040816326527" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-84" value="slnko" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-80" vertex="1">
+          <mxGeometry y="81.6108163265306" width="200" height="22.38785714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="UGQUblKj5625HT-jEXyH-1" value="podlaha_Navod" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-80" vertex="1">
+          <mxGeometry y="103.99867346938774" width="200" height="18.57142857142857" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-87" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="OMzZo-IOyk-P7CXgRgLX-59" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1500" y="160" as="sourcePoint" />
+            <mxPoint x="-1410" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-88" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1660" y="190" as="sourcePoint" />
+            <mxPoint x="-920" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-89" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1660" y="190" as="sourcePoint" />
+            <mxPoint x="-1660" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-90" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1410" y="190" as="sourcePoint" />
+            <mxPoint x="-1410.42" y="234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-91" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1160" y="190" as="sourcePoint" />
+            <mxPoint x="-1160.42" y="234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-92" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-920" y="190" as="sourcePoint" />
+            <mxPoint x="-920.42" y="234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-132" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-1510" y="506" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-133" value="Pasce" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-132" vertex="1">
+          <mxGeometry width="200" height="80" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-134" value="ROZMER (x,y,)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-133" vertex="1">
+          <mxGeometry y="26" width="200" height="19.200000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-135" value="POČET" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-133" vertex="1">
+          <mxGeometry y="45.2" width="200" height="19.96" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-136" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1260" y="517" as="sourcePoint" />
+            <mxPoint x="-1310" y="517" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-137" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-1260" y="506" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-138" value="Typy pascí" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-137" vertex="1">
+          <mxGeometry width="200" height="115.82857142857142" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-139" value="pichliac" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-138" vertex="1">
+          <mxGeometry y="26" width="200" height="20.57142857142857" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-140" value="lava" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-138" vertex="1">
+          <mxGeometry y="46.57142857142857" width="200" height="17.485714285714284" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-141" value="zem" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-138" vertex="1">
+          <mxGeometry y="64.05714285714285" width="200" height="21.83142857142857" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-142" value="lavastrop (strieľa projektil lavadrop)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-138" vertex="1">
+          <mxGeometry y="85.88857142857142" width="200" height="29.939999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-144" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.43;exitY=0.013;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="OMzZo-IOyk-P7CXgRgLX-133" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1610" y="490" as="sourcePoint" />
+            <mxPoint x="-1424" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-145" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1650" y="460" as="sourcePoint" />
+            <mxPoint x="-910" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-146" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1650" y="460" as="sourcePoint" />
+            <mxPoint x="-1650" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-147" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1420" y="460" as="sourcePoint" />
+            <mxPoint x="-1420" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-149" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-910" y="462" as="sourcePoint" />
+            <mxPoint x="-910" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-150" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.572;exitY=1.032;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.002;entryY=0.175;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OMzZo-IOyk-P7CXgRgLX-177" target="OMzZo-IOyk-P7CXgRgLX-133" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1630" y="480" as="sourcePoint" />
+            <mxPoint x="-1860" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1858" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-151" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.001;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OMzZo-IOyk-P7CXgRgLX-133" target="OMzZo-IOyk-P7CXgRgLX-37" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1420" y="590" as="sourcePoint" />
+            <mxPoint x="-1550" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1560" y="526" />
+              <mxPoint x="-1560" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-153" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.102;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OMzZo-IOyk-P7CXgRgLX-152" target="OMzZo-IOyk-P7CXgRgLX-47" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1410" y="350" as="sourcePoint" />
+            <mxPoint x="-1360" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1510" y="310" />
+              <mxPoint x="-1510" y="247" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-155" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1310" y="331" as="sourcePoint" />
+            <mxPoint x="-1241" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1270" y="331" />
+              <mxPoint x="-1270" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-157" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.002;entryY=0.107;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="OMzZo-IOyk-P7CXgRgLX-55" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1070" y="331" as="sourcePoint" />
+            <mxPoint x="-1011" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1040" y="331" />
+              <mxPoint x="-1040" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-165" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1160.17" y="460" as="sourcePoint" />
+            <mxPoint x="-1160" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-166" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="OMzZo-IOyk-P7CXgRgLX-168" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-840" y="310" as="sourcePoint" />
+            <mxPoint x="-760" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-800" y="310" />
+              <mxPoint x="-800" y="247" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-167" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-750" y="235.24" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-168" value="Výhra (Svet_VyhraliSte)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-167" vertex="1">
+          <mxGeometry width="160" height="120" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-169" value="ROZMER (x,y,)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-168" vertex="1">
+          <mxGeometry y="26" width="160" height="19.08860759493671" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-170" value="POZADIE (Svet_VyhraliSte)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-168" vertex="1">
+          <mxGeometry y="45.08860759493671" width="160" height="20.556962025316455" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-173" value="Hrať znovu (VYBER)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-168" vertex="1">
+          <mxGeometry y="65.64556962025317" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-174" value="Ukončiť hru (VYBER)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-168" vertex="1">
+          <mxGeometry y="91.64556962025317" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-175" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.003;exitY=0.604;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="OMzZo-IOyk-P7CXgRgLX-173" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1230" y="360" as="sourcePoint" />
+            <mxPoint x="-2300" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-530" y="317" />
+              <mxPoint x="-530" y="890" />
+              <mxPoint x="-2300" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-176" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.003;exitY=0.604;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.008;entryY=0.465;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="OMzZo-IOyk-P7CXgRgLX-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-590" y="340" as="sourcePoint" />
+            <mxPoint x="-2070" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-540" y="340" />
+              <mxPoint x="-540" y="680" />
+              <mxPoint x="-2030" y="690" />
+              <mxPoint x="-2030" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UGQUblKj5625HT-jEXyH-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1490" y="30" as="sourcePoint" />
+            <mxPoint x="-2040" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1490" y="10" />
+              <mxPoint x="-2040" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UGQUblKj5625HT-jEXyH-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.008;entryY=0.182;entryDx=0;entryDy=0;strokeWidth=2;entryPerimeter=0;" parent="1" target="OMzZo-IOyk-P7CXgRgLX-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2040" y="360" as="sourcePoint" />
+            <mxPoint x="-1950" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-11" value="NÁVOD (Svet_Navod)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="-2260" y="340" width="160" height="110" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-12" value="ROZMER (x,y,)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-11" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GafSinPTdWXPMurOFBGA-1" value="POZADIE (Svet_Navod)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-11" vertex="1">
+          <mxGeometry y="52" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-13" value="Ukážka pohybu,prekážok" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;fontSize=13;" parent="OMzZo-IOyk-P7CXgRgLX-11" vertex="1">
+          <mxGeometry y="80" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-17" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-2260" y="450" width="160" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-18" value="KONIEC" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-17" vertex="1">
+          <mxGeometry y="20" width="160" height="56" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-27" value="Ukončenie hry" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="OMzZo-IOyk-P7CXgRgLX-18" vertex="1">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-36" value="" style="group" parent="OMzZo-IOyk-P7CXgRgLX-17" vertex="1" connectable="0">
+          <mxGeometry y="90" width="160" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-37" value="SMRŤ (Svet_UmreliSte)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-36" vertex="1">
+          <mxGeometry width="160" height="158" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-38" value="ROZMER (x,y,)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-36" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-39" value="POZADIE (Svet_UmrelSi)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-36" vertex="1">
+          <mxGeometry y="52" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-40" value="Opakovať (VYBER)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-36" vertex="1">
+          <mxGeometry y="80" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-41" value="Späť do menu (VYBER)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-36" vertex="1">
+          <mxGeometry y="106" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OMzZo-IOyk-P7CXgRgLX-42" value="Ukončiť hru (VYBER)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="OMzZo-IOyk-P7CXgRgLX-36" vertex="1">
+          <mxGeometry y="132" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GafSinPTdWXPMurOFBGA-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.002;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="OMzZo-IOyk-P7CXgRgLX-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1910" y="420" as="sourcePoint" />
+            <mxPoint x="-2300" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-1" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-1020" y="513.91" width="200" height="56.09" as="geometry" />
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-2" value="Odpočet času" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="BEYnCItivfoiyTuLerQq-1" vertex="1">
+          <mxGeometry width="200" height="105.84" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-3" value="cas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="BEYnCItivfoiyTuLerQq-2" vertex="1">
+          <mxGeometry y="26" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-31" value="vypisCas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="BEYnCItivfoiyTuLerQq-2" vertex="1">
+          <mxGeometry y="56" width="200" height="24.92" as="geometry" />
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-4" value="uplynutieCasu" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="BEYnCItivfoiyTuLerQq-2" vertex="1">
+          <mxGeometry y="80.92" width="200" height="24.92" as="geometry" />
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-17" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-2260" y="710" width="160" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-18" value="ČAS (Svet_UplynulČas)&#xa;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;fontSize=12;" parent="BEYnCItivfoiyTuLerQq-17" vertex="1">
+          <mxGeometry width="160" height="158" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-19" value="ROZMER (x,y,)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="BEYnCItivfoiyTuLerQq-17" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-20" value="POZADIE (Svet_UplynulČas)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;fontSize=11;" parent="BEYnCItivfoiyTuLerQq-17" vertex="1">
+          <mxGeometry y="52" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-21" value="Opakovať (VYBER)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="BEYnCItivfoiyTuLerQq-17" vertex="1">
+          <mxGeometry y="80" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-22" value="Späť do menu (VYBER)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="BEYnCItivfoiyTuLerQq-17" vertex="1">
+          <mxGeometry y="106" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-23" value="Ukončiť hru (VYBER)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="BEYnCItivfoiyTuLerQq-17" vertex="1">
+          <mxGeometry y="132" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.006;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="BEYnCItivfoiyTuLerQq-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1020" y="607" as="sourcePoint" />
+            <mxPoint x="-1030" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1040" y="607" />
+              <mxPoint x="-1040" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-35" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="BEYnCItivfoiyTuLerQq-22" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1810" y="600" as="sourcePoint" />
+            <mxPoint x="-2300" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="OMzZo-IOyk-P7CXgRgLX-42" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1860" y="650" as="sourcePoint" />
+            <mxPoint x="-2030" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="BEYnCItivfoiyTuLerQq-23" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1860" y="650" as="sourcePoint" />
+            <mxPoint x="-2030" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2030" y="855" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="BEYnCItivfoiyTuLerQq-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1820" y="620" as="sourcePoint" />
+            <mxPoint x="-2010" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2010" y="803" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEYnCItivfoiyTuLerQq-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.01;exitY=0.161;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BEYnCItivfoiyTuLerQq-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1370" y="540" as="sourcePoint" />
+            <mxPoint x="-1040" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1040" y="531" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
